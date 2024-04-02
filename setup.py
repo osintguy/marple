@@ -7,6 +7,6 @@ setup(
    author='Man Foo',
    author_email='foomail@foo.example',
    packages=['marple'],  #same as name
-   install_requires=['aiohttp','termcolor','bs4','requests','yandex_search','pypdf2','socid_extractor','maigret','aiohttp_socks','search_engines @ https://github.com/soxoj/Search-Engines-Scraper/archive/refs/heads/master.zip','tqdm','google-search-results','mock'], #external packages as dependencies
+   install_requires=['wheel','aiohttp','termcolor','bs4','requests','yandex_search','pypdf2','socid_extractor','maigret','aiohttp_socks','search_engines @ https://github.com/soxoj/Search-Engines-Scraper/archive/refs/heads/master.zip','tqdm','google-search-results','mock'], #external packages as dependencies
 )
 
