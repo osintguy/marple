@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Placeholder"
 requires-python = ">=3.8"
-dependencies = ['wheel','aiohttp','termcolor','bs4','requests','yandex_search','pypdf2','socid_extractor','maigret','aiohttp_socks','tqdm','google-search-results','mock'] #excludes 'search_engines @ https://github.com/soxoj/Search-Engines-Scraper/archive/refs/heads/master.zip',
+dependencies = ['wheel','aiohttp','termcolor','bs4','requests','yandex_search','pypdf2','socid_extractor','aiohttp_socks','tqdm','google-search-results','mock'] #excludes 'search_engines @ https://github.com/soxoj/Search-Engines-Scraper/archive/refs/heads/master.zip',
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
