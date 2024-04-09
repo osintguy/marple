@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marple"
+version = "1.0"
+authors = [
+  { name="Hayden", email="hc-github@protonmail.com" },
+]
+description = "Placeholder"
+requires-python = ">=3.8"
+dependencies = ['wheel','aiohttp','termcolor','bs4','requests','yandex_search','pypdf2','socid_extractor','maigret','aiohttp_socks','search_engines @ https://github.com/soxoj/Search-Engines-Scraper/archive/refs/heads/master.zip','tqdm','google-search-results','mock']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/osintguy/marple/"
+Issues = "https://github.com/osintguy/marple/issues"
+
+[project.scripts]
+picai = "marple.marple:main"
