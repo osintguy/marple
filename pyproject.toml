@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "marple"
 version = "1.0"
 authors = [
-  { name="Hayden", email="hc-github@protonmail.com" },
+  { name="soxoj", email="hc-github@protonmail.com" },
 ]
 description = "Placeholder"
 requires-python = ">=3.8"
@@ -23,3 +23,4 @@ Issues = "https://github.com/osintguy/marple/issues"
 
 [project.scripts]
 picai = "marple.marple:main"
+# credit to https://github.com/soxoj/marple
