@@ -22,5 +22,5 @@ Homepage = "https://github.com/osintguy/marple/"
 Issues = "https://github.com/osintguy/marple/issues"
 
 [project.scripts]
-picai = "marple.marple:main"
+marple = "marple.marple:main"
 # credit to https://github.com/soxoj/marple
